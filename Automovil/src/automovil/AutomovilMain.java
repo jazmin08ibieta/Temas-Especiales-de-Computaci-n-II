@@ -11,6 +11,7 @@ package automovil;
  */
 public class AutomovilMain {
    
+
       public static void main(String[] args) {
         //prueba de herencia clase persona.
         
@@ -18,7 +19,10 @@ public class AutomovilMain {
         
         System.out.println(automovil.toString());
         
-      
+        
+        automovil.avanzar(27);
+        automovil.frenar("Honda");
     }
     
 }
+

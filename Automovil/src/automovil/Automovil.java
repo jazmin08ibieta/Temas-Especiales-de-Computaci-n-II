@@ -73,5 +73,13 @@ public class Automovil {
     }
     
     
+     public void avanzar(int kilometraje){
+          System.out.println("El auto "+this.marca+ " Esta avanzando a " +kilometraje+ "kms" );
+        }
+        
+        public void frenar(String Marca){
+            System.out.print("El Automovil "+Marca+" ha frenado");
+        }
+    
     
 }
