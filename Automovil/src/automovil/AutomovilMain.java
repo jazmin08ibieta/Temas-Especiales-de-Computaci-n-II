@@ -11,6 +11,20 @@ package automovil;
  */
 public class AutomovilMain {
    
+        public void avanzar(int kilometraje){
+          if (kilometraje >0){
+              System.out.print("El Automovil esta avanzando");
+          }
+          
+          else {
+              System.out.print("El Automovil no esta avanzando");
+          }
+        }
+        
+        public void frenar(){
+            System.out.print("El Automovil ha frenado");
+        }
+
       public static void main(String[] args) {
         //prueba de herencia clase persona.
         
@@ -18,7 +32,9 @@ public class AutomovilMain {
         
         System.out.println(automovil.toString());
         
-      
+   
+  
     }
     
 }
+
